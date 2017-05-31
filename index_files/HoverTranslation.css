@@ -1,0 +1,104 @@
+/* Hover Translation CSS. Note: Only use single quote because this file will be crunched to HoverTranslation javascript file*/
+#ht_pop
+{
+    overflow:auto;
+    position:absolute;
+    display:none;
+    background:white;
+    z-index:99999
+}
+.hts_pop
+{
+    width:292px;
+    font-size:13px;
+    border:2px solid #ebebeb;
+    padding:0;
+    margin:0
+}
+.hts_pop #ht_content
+{
+    border:1px solid #cdcdcd;
+    padding:9px 15px 1px 15px;
+    border-bottom:0;
+    overflow:hidden
+}
+* html .hts_pop #ht_content
+{
+    height:expression((this.childNodes.length && this.childNodes[0].offsetHeight > 272 ) ? '272px' : 'auto')
+}
+.hts_pop #ht_content div
+{
+    width:260px;
+    max-height:275px;
+    overflow:hidden
+}
+.hts_pop h4
+{
+    margin:0;
+    padding:0;
+    margin-right:5px;
+    font-size:13px;
+    font-weight:bold;
+    float:left;
+    word-break:break-all
+}
+.hts_pop ul
+{
+    font-size:13px;
+    margin:0;
+    padding:0;
+    clear:both;
+}
+.hts_pop ul li
+{
+    font-size:13px;
+    margin:0;
+    padding:0;
+    line-height:21px;
+    list-style-type:none
+}
+
+.hts_pop .ht_attr
+{
+    _font-family:Lucida Sans Unicode,sans-serif; 
+}
+
+#ht_logo
+{
+    background:url('/fd/s/live/dict_logo.png?v=2');
+    display:block;
+    width:66px;
+    height:16px;
+    float:left
+}
+#ht_footer
+{
+    border:1px solid #cdcdcd;
+    padding:0 15px 20px 15px;
+    border-top:0;
+    padding-top:0;
+    line-height:21px
+}
+#ht_footer a
+{
+    display:inline-block;
+    margin-right:10px
+}
+i
+{
+    font-style:normal
+}
+
+.hts_pop .ht_trs 
+{
+    margin-left: 10px;
+}
+.hts_pop .ht_close {
+    float: right;
+}
+.hts_pop .ht_download {
+    float: right;
+}
+.hts_pop .ht_more {
+    display: block;
+}
